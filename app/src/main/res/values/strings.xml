@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">MyMovies</string>
+    <string name="title_activity_discover_main">DiscoverMainActivity</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_settings">Settings</string>
+
+    <!-- Strings related to Settings -->
+    <string name="settings_sort_by">Sort movies by</string>
+    <string name="settings_sort_by_key">sort_by</string>
+    <string name="settings_sort_by_default">vote_count.desc</string>
+    <string name="settings_sort_by_summary">Choose the order in which you want the movies to be sorted</string>
+    <string-array name="settings_sort_by_list_entries">
+        <item name = "mostpopular">"Most popular"</item>
+        <item name= "highestrated">"Highest Rated"</item>
+    </string-array>
+    <string-array name="settings_sort_by_list_values">
+        <item name = "mostpopular">"popularity.asc"</item>
+        <item name= "highestrated">"vote_average.desc"</item>
+    </string-array>
+    <string name="title_activity_movies_detail">MoviesDetailActivity</string>
+
+
+</resources>

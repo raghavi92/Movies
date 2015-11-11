@@ -1,0 +1,16 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- NOTE: Hide buttons to simplify the UI. Users can touch outside the dialog to
+         dismiss it. -->
+    <!-- NOTE: ListPreference's summary should be set to its value by the activity code. -->
+    <ListPreference
+        android:key="sort_by"
+        android:title="@string/settings_sort_by"
+        android:summary="@string/settings_sort_by_summary"
+        android:entries="@array/settings_sort_by_list_entries"
+        android:entryValues="@array/settings_sort_by_list_values"
+        android:defaultValue="vote_count.desc"
+        android:negativeButtonText="@null"
+        android:positiveButtonText="@null" />
+
+</PreferenceScreen>
